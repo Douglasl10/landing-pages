@@ -317,9 +317,16 @@ p {
     flex-direction: column;
     background: #00000082;
     gap: 10px;
+    border-radius: 10px;
     width: 340px;
     height: 308px;
 }
+
+.cont-one:hover{
+    transform: translateY(-5px);
+}
+
+
 
 .cont-two {
     display: flex;
@@ -328,8 +335,13 @@ p {
     flex-direction: column;
     background: #00000082;
     gap: 10px;
+    border-radius: 10px;
     width: 340px;
     height: 308px;
+}
+
+.cont-two:hover{
+    transform: translateY(-5px);
 }
 
 .cont-three {
@@ -339,9 +351,14 @@ p {
     flex-direction: column;
     background: #00000082;
     gap: 10px;
+    border-radius: 10px;
     width: 340px;
     height: 308px;
     padding-bottom: 25px;
+}
+
+.cont-three:hover{
+    transform: translateY(-5px);
 }
 
 .cont-four {
@@ -351,8 +368,13 @@ p {
     flex-direction: column;
     background: #00000082;
     gap: 10px;
+    border-radius: 10px;
     width: 340px;
     height: 308px;
+}
+
+.cont-four:hover{
+    transform: translateY(-5px);
 }
 
 .section-3 {
@@ -399,6 +421,11 @@ p {
     border: 1px solid #9000ff;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.button-header:hover {
+    background: #9000ff;
+    color: #fff;
 }
 
 .container-textimg {
